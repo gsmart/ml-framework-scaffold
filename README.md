@@ -20,11 +20,11 @@ conda --version   # or skip if using venv
 
 ---
 
-## 📦 Installation
+## Installation
 
 Choose one of the following methods:
 
-### 🔒 Option 1: Using Conda (Recommended)
+### Option 1: Using Conda (Recommended)
 
 ```bash
 # Create a new environment
@@ -37,7 +37,7 @@ conda activate ml_hello_env
 pip install -r requirements.txt
 ```
 
-### 🐍 Option 2: Using venv
+### Option 2: Using venv
 
 ```bash
 # Create and activate a virtual environment
@@ -48,7 +48,7 @@ source .venv/bin/activate      # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### ⚠️ Option 3: Global Install (Not Recommended)
+### Option 3: Global Install (Not Recommended)
 
 ```bash
 pip install -r requirements.txt
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 Run the project with:
 
@@ -74,7 +74,7 @@ This will:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```bash
 ml-hello-world/
@@ -97,7 +97,7 @@ ml-hello-world/
 
 ---
 
-## 💻 Platform-Specific Instructions
+## Platform-Specific Instructions
 
 ### macOS / Linux / WSL
 
@@ -115,9 +115,10 @@ Follow the same steps. To activate the environment:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
-- ✅ Add pytest test coverage  
-- ✅ Config-driven training with YAML  
-- ✅ Docker support for reproducibility  
+- Add pytest test coverage  
+- Config-driven training with YAML  
+- Docker support for reproducibility  
 ```
+
