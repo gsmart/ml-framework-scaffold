@@ -16,16 +16,17 @@ To verify you have the required tools installed:
 ```bash
 python --version
 conda --version   # or skip if using venv
+```
 
 ---
 
-📦 Installation
+## 📦 Installation
+
 Choose one of the following methods:
 
-🔒 Option 1: Using Conda (Recommended)
-bash
-Copy
-Edit
+### 🔒 Option 1: Using Conda (Recommended)
+
+```bash
 # Create a new environment
 conda create -n ml_hello_env python=3.10 -y
 
@@ -34,42 +35,48 @@ conda activate ml_hello_env
 
 # Install dependencies
 pip install -r requirements.txt
-🐍 Option 2: Using venv
-bash
-Copy
-Edit
+```
+
+### 🐍 Option 2: Using venv
+
+```bash
 # Create and activate a virtual environment
 python -m venv .venv
 source .venv/bin/activate      # On Windows: .venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
-⚠️ Option 3: Global Install (Not Recommended)
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Note: Global installs can cause dependency conflicts with other projects.
+```
 
-▶️ Usage
+### ⚠️ Option 3: Global Install (Not Recommended)
+
+```bash
+pip install -r requirements.txt
+```
+
+> **Note**: Global installs can cause dependency conflicts with other projects.
+
+---
+
+## ▶️ Usage
+
 Run the project with:
 
-bash
-Copy
-Edit
+```bash
 python main.py
+```
+
 This will:
 
-Load the Iris dataset
+- Load the Iris dataset  
+- Train a RandomForestClassifier  
+- Print the accuracy score  
 
-Train a RandomForestClassifier
+---
 
-Print the accuracy score
+## 📁 Project Structure
 
-📁 Project Structure
-bash
-Copy
-Edit
+```bash
 ml-hello-world/
 ├── data/                  # Raw, processed, and external data
 │   ├── raw/
@@ -86,25 +93,31 @@ ml-hello-world/
 ├── main.py                # Main entry point
 ├── requirements.txt       # Dependency list
 └── README.md              # You're here!
-💻 Platform-Specific Instructions
-macOS / Linux / WSL
-Clone the repository.
+```
 
-Use Conda or venv to set up the environment.
+---
 
-Run main.py.
+## 💻 Platform-Specific Instructions
 
-Windows
+### macOS / Linux / WSL
+
+- Clone the repository.
+- Use Conda or venv to set up the environment.
+- Run `main.py`.
+
+### Windows
+
 Follow the same steps. To activate the environment:
 
-bash
-Copy
-Edit
+```bash
 .venv\Scripts\activate
-🔮 Future Enhancements
-✅ Add pytest test coverage
+```
 
-✅ Config-driven training with YAML
+---
 
-✅ Docker support for reproducibility
+## 🔮 Future Enhancements
 
+- ✅ Add pytest test coverage  
+- ✅ Config-driven training with YAML  
+- ✅ Docker support for reproducibility  
+```
